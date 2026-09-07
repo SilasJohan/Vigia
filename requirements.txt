@@ -1,0 +1,6 @@
+# Núcleo (obrigatório)
+httpx>=0.27
+beautifulsoup4>=4.12
+
+# Opcional: só instale quando encontrar uma página que exige JS
+# pip install playwright && python -m playwright install chromium
