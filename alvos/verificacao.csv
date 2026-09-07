@@ -1,0 +1,34 @@
+cluster,empresa,url,papel,pais,status,precos_detectados,nota
+analytics,Plausible,https://plausible.io/#pricing,lider,eu,ok,5,recorte=2618
+analytics,Fathom,https://usefathom.com/pricing,lider,us,ok,6,recorte=3516
+analytics,Simple Analytics,https://www.simpleanalytics.com/pricing,meio,eu,ok,3,recorte=3676
+analytics,Pirsch,https://pirsch.io/#pricing,entrante,eu,sem-preco,0,recorte=1376 sem cifrao visivel
+analytics,Umami Cloud,https://umami.is/pricing,entrante,us,precisa-browser,0,texto=0
+analytics,Muro,https://muroanalytics.com/pricing,entrante,?,ok,4,recorte=2288
+analytics,Counter,https://counter.dev/,entrante,eu,sem-preco,0,recorte=89 sem cifrao visivel
+uptime,UptimeRobot,https://uptimerobot.com/pricing/,lider,us,ok,7,recorte=5685
+uptime,Better Stack,https://betterstack.com/pricing,lider,eu,ok,92,recorte=6502
+uptime,Hyperping,https://hyperping.com/pricing,entrante,eu,ok,50,recorte=6613
+uptime,Pulsetic,https://pulsetic.com/pricing/,entrante,eu,ok,29,recorte=2160
+uptime,Cronitor,https://cronitor.io/pricing,meio,us,ok,20,recorte=1475
+uptime,Healthchecks,https://healthchecks.io/pricing/,entrante,eu,ok,8,recorte=2069
+uptime,openstatus,https://www.openstatus.dev/pricing,entrante,eu,ok,21,recorte=2266
+forms,Tally,https://tally.so/pricing,lider,eu,ok,1,recorte=2518
+forms,Fillout,https://www.fillout.com/pricing,lider,us,ok,6,recorte=6277
+forms,Youform,https://youform.com/pricing,entrante,?,ok,10,recorte=5428
+forms,Formbricks,https://formbricks.com/pricing,entrante,eu,ok,4,recorte=1569
+feedback,Canny,https://canny.io/pricing,lider,us,ok,4,recorte=2179
+feedback,Featurebase,https://www.featurebase.app/pricing,meio,eu,ok,4,recorte=1332
+feedback,Sleekplan,https://sleekplan.com/pricing,entrante,eu,ok,13,recorte=2883
+feedback,UserJot,https://userjot.com/pricing,entrante,?,falhou,0,HTTP 404
+feedback,Frill,https://frill.co/pricing,entrante,?,ok,9,recorte=1133
+feedback,Nolt,https://nolt.io/pricing,entrante,?,bloqueado,0,site recusou o acesso (HTTP 403)
+screenshot,ScreenshotOne,https://screenshotone.com/pricing/,lider,eu,ok,9,recorte=2363
+screenshot,Urlbox,https://urlbox.com/pricing,lider,uk,ok,21,recorte=4096
+screenshot,ApiFlash,https://apiflash.com/#pricing,meio,?,ok,3,recorte=525
+screenshot,CaptureKit,https://capturekit.dev/pricing,entrante,?,ok,2,recorte=778
+ecommerce-br,Bling,https://www.bling.com.br/planos,lider,br,ok,42,recorte=9682
+ecommerce-br,Olist Tiny,https://tiny.com.br/planos,lider,br,ok,34,recorte=9115
+ecommerce-br,Magis5,https://www.magis5.com.br/planos,entrante,br,ok,1,recorte=1906
+ecommerce-br,Ideris,https://ideris.com.br/planos/,entrante,br,ok,6,recorte=1680
+ecommerce-br,Nuvemshop,https://www.nuvemshop.com.br/planos-e-precos,lider,br,ok,54,recorte=2737

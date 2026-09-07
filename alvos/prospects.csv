@@ -1,0 +1,19 @@
+prioridade,empresa,cluster,papel_no_cluster,site,moeda,sinal_de_compra,quem_ele_precisa_vigiar,contato,contato_verificado,status_comercial
+1,Hyperping,uptime,entrante,https://hyperping.com,USD,"Publica 8+ posts 'best X alternatives' com precos de concorrentes escritos na mao (UptimeRobot $12/$39, Better Stack $21/$29/$12/$17, Cronitor $2/monitor, Pingdom, Uptime.com). Self-funded, 4 pessoas, 7 anos sem VC.",UptimeRobot;Better Stack;Cronitor;Pulsetic;Uptime.com,hello@hyperping.io,sim,alvo
+2,Youform,forms,entrante,https://youform.com,USD,"Mantem /tally-forms-alternative/ e /fillout-alternative/ com precos do concorrente na pagina. Conferi: os numeros da Fillout estao corretos hoje - ou seja, alguem atualiza isso na mao.",Tally;Fillout;Formbricks,,nao,alvo
+3,Sleekplan,feedback,entrante,https://sleekplan.com,USD,"Publica 'Top 10 Productboard Alternatives 2026' no proprio blog. Time pequeno, 4 produtos num painel.",Canny;Featurebase;Frill;UserJot,,nao,alvo
+4,Featurebase,feedback,meio,https://www.featurebase.app,USD,"Publica alternatives posts sobre ProductPlan e Sleekplan. Cobra por assento, entao mudanca de preco do concorrente mexe direto no pitch dele.",Canny;Sleekplan;UserJot;Frill,,nao,alvo
+5,Muro Analytics,analytics,entrante,https://muroanalytics.com,USD,"Entrante novo num cluster onde todos brigam por $4-$9. Publica '6 best privacy-friendly analytics tools 2026 (honest review)' citando os concorrentes.",Plausible;Fathom;Simple Analytics;Pirsch,,nao,alvo
+6,UserJot,feedback,entrante,https://userjot.com,USD,"Preco publico $0/$29/$59 num cluster de 8+ players que se citam. Ferramenta jovem, fundador acessivel.",Canny;Featurebase;Sleekplan;Frill,,nao,alvo
+7,Pulsetic,uptime,entrante,https://pulsetic.com,USD,"Posicionado explicitamente como 'melhor substituto do UptimeRobot'. Se o UptimeRobot mexer no free tier, o pitch dele muda no mesmo dia.",UptimeRobot;Hyperping;Better Stack;StatusCake,,nao,alvo
+8,Formbricks,forms,entrante,https://formbricks.com,USD,"Open source entrando num cluster onde Tally e Fillout mudaram preco recentemente. Precisa saber onde encostar o preco.",Tally;Fillout;Youform,,nao,alvo
+9,CaptureKit,screenshot,entrante,https://capturekit.dev,USD,"Entrante barato contra ScreenshotOne ($79) e Urlbox ($99/$19). Categoria onde preco por screenshot e o unico argumento.",ScreenshotOne;Urlbox;ApiFlash,,nao,alvo
+10,openstatus,uptime,entrante,https://www.openstatus.dev,USD,"OSS com plano pago, briga direto com Better Stack e Hyperping. Time minusculo.",Better Stack;Hyperping;UptimeRobot,,nao,alvo
+11,Magis5,ecommerce-br,entrante,https://www.magis5.com.br,BRL,"Hub de marketplace disputando com Bling (R$49 entrada) e Olist Tiny. Cliente que paga em Pix e fala portugues.",Bling;Olist Tiny;Ideris;Nuvemshop,,nao,alvo
+12,Ideris,ecommerce-br,entrante,https://ideris.com.br,BRL,"Mesmo cluster do Magis5. Preco publico e concorrencia direta com Bling/Tiny/Anymarket.",Bling;Olist Tiny;Magis5;Anymarket,,nao,alvo
+# --- COMO USAR ESTA TABELA ---
+# prioridade 1-10 = Cliente A (ingles, US$9-19, cartao). 11-12 = Cliente B (portugues, R$49-149, Pix).
+# "sinal_de_compra" e o unico criterio que importa: quem JA monitora concorrente na mao ja tem a dor.
+# Nenhum destes e cliente. Sao alvos verificados. Quem paga so se descobre na DM.
+# contato_verificado=nao -> pegue no rodape do site ou no byline do blog. NAO invente e-mail.
+# Antes de mandar DM: rode 'python -m vigia brief <dominio dos concorrentes dele>' e leve um fato.

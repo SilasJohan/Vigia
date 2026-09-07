@@ -1,0 +1,19 @@
+alvo,cluster,onde_achar_o_contato,contato,pessoa,cargo_certo,verificado,toque1_data,toque1_canal,resposta,toque2_data,toque3_data,estado,proximo_passo,notas
+Hyperping,uptime,"CONFIRMADO: hello@hyperping.io (pagina /about). Time visivel: Leo Baker (CEO), Nicolas Merouze (Content Strategy), Manon Pitte, Laurent Werey.",hello@hyperping.io,Leo Baker,"Nicolas Merouze - e ele que mantem os posts de comparacao, a dor e dele",sim,,,,,,alvo,"Mandar toque 1 primeiro: e o unico contato confirmado e o melhor sinal",
+Youform,forms,"Rodape de youform.com + pagina /about. Procurar handle no X do fundador. Tem changelog publico.",,,,nao,,,,,,alvo,"Achar e-mail no rodape",
+Sleekplan,feedback,"sleekplan.com rodape + byline do blog (quem assinou 'Top 10 Productboard Alternatives').",,,,nao,,,,,,alvo,"Achar autor do post de alternatives",
+Featurebase,feedback,"featurebase.app rodape. Publica muito no blog - pegar o autor. Provavelmente time estoniano.",,,,nao,,,,,,alvo,"Achar autor do blog",
+Muro Analytics,analytics,"muroanalytics.com rodape/about. Produto novo - fundador costuma estar no X e no Product Hunt.",,,,nao,,,,,,alvo,"Procurar no Product Hunt quem lancou",
+UserJot,feedback,"userjot.com rodape. Ferramenta jovem, fundador solo provavel. Ver X e Indie Hackers.",,,,nao,,,,,,alvo,"Achar handle no X",
+Pulsetic,uptime,"pulsetic.com rodape + /about.",,,,nao,,,,,,alvo,"Achar e-mail",
+Formbricks,forms,"OSS: github.com/formbricks/formbricks - fundadores nos commits e no README. Tem Discord.",,,,nao,,,,,,alvo,"Entrar no Discord antes de mandar DM",
+CaptureKit,screenshot,"capturekit.dev rodape. Entrante novo, provavel fundador solo no X.",,,,nao,,,,,,alvo,"Achar handle no X",
+openstatus,uptime,"OSS: github.com/openstatusHQ - fundadores nos commits. Tem Discord publico.",,,,nao,,,,,,alvo,"Entrar no Discord, ser util antes de vender",
+Magis5,ecommerce-br,"magis5.com.br rodape - empresa BR, tem telefone e e-mail comercial. LinkedIn dos socios.",,,,nao,,,,,,alvo,"E-mail comercial do site. Em portugues, R$49, Pix",
+Ideris,ecommerce-br,"ideris.com.br rodape - empresa BR. LinkedIn.",,,,nao,,,,,,alvo,"E-mail comercial. Em portugues, R$49, Pix",
+# --- COMO PREENCHER ---
+# estado: alvo -> contato_achado -> toque1_enviado -> respondeu -> testando -> pagou | morto
+# resposta: sim / nao / negativa  (e cole a frase dele em notas - e o dado mais valioso que voce vai ter)
+# toque1/2/3_data: formato 2026-09-08. Toque 2 = +3 dias do toque 1. Toque 3 = +4 dias do toque 2.
+# NUNCA passe de 3 toques. Depois disso, estado=morto e siga a vida.
+# cargo_certo: quem sente a dor. Na Hyperping e o content, nao o CEO. Isso muda a taxa de resposta.

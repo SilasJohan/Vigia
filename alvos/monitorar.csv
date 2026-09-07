@@ -1,0 +1,38 @@
+url,empresa,cluster,modo,status_tecnico,precos_detectados,preco_verificado_2026_09_07,interessa_a
+https://uptimerobot.com/pricing/,UptimeRobot,uptime,pricing,ok,7,"Free 50 monitors; Solo $12/mo anual; Team $39/mo anual",Hyperping;Pulsetic;openstatus
+https://betterstack.com/pricing,Better Stack,uptime,pricing,ok,92,"$21/50 monitors; on-call $29/user; status page $12",Hyperping;Pulsetic;openstatus
+https://cronitor.io/pricing,Cronitor,uptime,pricing,ok,20,"Free 5 monitors; Business ~$2/monitor",Hyperping;openstatus
+https://hyperping.com/pricing,Hyperping,uptime,pricing,ok,50,"Essentials $24; Pro $74; Business $249",Pulsetic;openstatus
+https://pulsetic.com/pricing/,Pulsetic,uptime,pricing,ok,29,"Free 10 monitors; Team $19",Hyperping;openstatus
+https://healthchecks.io/pricing/,Healthchecks,uptime,pricing,ok,8,"free/OSS + planos baixos",Hyperping;Cronitor
+https://www.openstatus.dev/pricing,openstatus,uptime,pricing,ok,21,,Hyperping;Pulsetic
+https://tally.so/pricing,Tally,forms,pricing,ok,3,"Pro $24/mes; Business $74/mes (mensal e o padrao)",Youform;Formbricks;Fillout
+https://www.fillout.com/pricing,Fillout,forms,pricing,ok,6,"Free $0; Starter $15; Pro $40; Business $75",Youform;Formbricks;Tally
+https://youform.com/pricing,Youform,forms,pricing,ok,10,"Pro $29/mes; Business $89",Formbricks;Tally;Fillout
+https://formbricks.com/pricing,Formbricks,forms,pricing,ok,4,,Youform;Tally
+https://canny.io/pricing,Canny,feedback,pricing,ok,4,,Sleekplan;Featurebase;UserJot;Frill
+https://www.featurebase.app/pricing,Featurebase,feedback,pricing,ok,4,,Sleekplan;UserJot;Frill
+https://sleekplan.com/pricing,Sleekplan,feedback,pricing,ok,13,,Featurebase;UserJot;Frill
+https://userjot.com/,UserJot,feedback,pricing,ok,4,"$0; $29; $59",Sleekplan;Featurebase;Frill
+https://frill.co/pricing,Frill,feedback,pricing,ok,9,,Sleekplan;Featurebase;UserJot
+https://plausible.io/#pricing,Plausible,analytics,pricing,ok,5,"a partir de $9/mes",Muro;Pirsch;Simple Analytics
+https://usefathom.com/pricing,Fathom,analytics,pricing,ok,6,,Muro;Pirsch;Simple Analytics
+https://www.simpleanalytics.com/pricing,Simple Analytics,analytics,pricing,ok,3,"a partir de $9/mes",Muro;Pirsch
+https://muroanalytics.com/pricing,Muro,analytics,pricing,ok,4,,Pirsch;Simple Analytics
+https://screenshotone.com/pricing/,ScreenshotOne,screenshot,pricing,ok,9,"basico $79",CaptureKit;ApiFlash
+https://urlbox.com/pricing,Urlbox,screenshot,pricing,ok,21,"$19/2k; $99/15k; $498+ enterprise",CaptureKit;ApiFlash;ScreenshotOne
+https://apiflash.com/#pricing,ApiFlash,screenshot,pricing,ok,3,"$7/100; $16/1k; $49/10k",CaptureKit;ScreenshotOne
+https://capturekit.dev/pricing,CaptureKit,screenshot,pricing,ok,2,,ApiFlash;ScreenshotOne
+https://www.bling.com.br/planos,Bling,ecommerce-br,pricing,ok,44,"entrada R$49/mes",Magis5;Ideris
+https://tiny.com.br/planos,Olist Tiny,ecommerce-br,pricing,ok,34,,Magis5;Ideris
+https://www.magis5.com.br/planos,Magis5,ecommerce-br,pricing,ok,1,,Ideris
+https://ideris.com.br/planos/,Ideris,ecommerce-br,pricing,ok,6,,Magis5
+https://www.nuvemshop.com.br/planos-e-precos,Nuvemshop,ecommerce-br,pricing,ok,54,"R$50-200/mes conforme plano",Magis5;Ideris
+# --- NAO MONITORAVEIS (verificado em 2026-09-07, nao insista) ---
+# https://pirsch.io/#pricing        Pirsch    tabela de preco vem por JS. Precisa Playwright.
+# https://umami.is/pricing          Umami     app shell vazio (0 char de texto). Precisa Playwright.
+# https://counter.dev/              Counter   preco por JS. Precisa Playwright.
+# https://nolt.io/pricing           Nolt      HTTP 403. Recusou o acesso - NAO force, e o combinado do produto.
+#
+# 28 de 33 URLs verificadas funcionam sem browser. Carregue com:
+#   python -m vigia carregar alvos/monitorar.csv
